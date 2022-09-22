@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../home/cosmos.jpg");
+    background-size: cover;
+}
+
+.sun-image img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 275px;
+}
+
+.mercury-image img {
+    width: 10px;
+    height: 10px;
+    position: relative;
+
+}
+
+.venus-image img {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 275px;
+    left: 25px;
+}
+
+.earth-image img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 275px;
+}
+
+.mars-image img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 275px;
+    left: 30px;
+}
+
+.jupiter-image img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 275px;
+    left: 50px;
+}
+
+.saturn-image img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 275px;
+    left: 70px;
+}
+
+.uranus-image img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 275px;
+    left: 100px;
+}
+
+.neptune-image img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 275px;
+    left: 130px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
